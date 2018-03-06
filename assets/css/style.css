@@ -1,0 +1,31 @@
+
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;}
+p {
+    font-family: Arial, 'Helvetica Nue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+.header {
+    background-color: white;
+    width: 960px;
+    margin: auto; 
+}
+
+.header-right {
+    float: right;
+}
+
+
+
+
+.content {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    border: #dddddd solid 2px;
+}
