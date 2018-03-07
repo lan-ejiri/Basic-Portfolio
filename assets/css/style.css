@@ -1,31 +1,113 @@
 
+    * {
+        margin:  0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
+    body {
+        background-color: lightgray;
+    }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;}
-p {
-    font-family: Arial, 'Helvetica Nue', Helvetica, sans-serif;
-    color: #777777;
-}
-
-
-.header {
+    .headacross {
     background-color: white;
-    width: 960px;
-    margin: auto; 
+    border: #dddddd solid 0px 0px 2px 0px;
+    width: 100%;
+    overflow: auto;
+    margin-top: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .headertosize {
+        background-color: white;
+        overflow: hidden;
+        width: 960px; 
+        margin: auto;   
+    }
+
+    .name {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        background-color: #4aaaa5;
+        float: left;
+        padding: 10px;
+    }
+
+    .header-right a { 
+        float: right;
+        margin-top: 25px;
+        padding: 0 15px 0 15px;
+    }
+
+    ul {
+        float: right;
+        list-style: none;
+    }
+
+    li{
+        float: left;
+    }
+
+    .content {
+        clear: both;
+        background-color: white;
+        width: 960px;
+        margin: auto;
+        border: #dddddd solid 2px;
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #4aaaa5;
+    background: white;
+    padding: 10px;}
+
+
+    p,a {
+        font-family: Arial, 'Helvetica Nue', Helvetica, sans-serif;
+        color: #777777;
+        line-height: 2;
+    }
+
+   
+    
+  
+ a:hover{
+        color: black;
+    }
+a:link {
+    text-decoration: none;
 }
 
-.header-right {
-    float: right;
-}
+    img {
+        float: left;    
+        margin: 10px 20px 0px 0;
+    }
 
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        background-color: #666666;
 
+    } 
 
+    .tealline {
+        background-color: #4aaaa5;
+        width: 100%;
+        position: absolute;
+        height: 5px;
+        bottom: 40px;
 
-.content {
-    background-color: white;
-    width: 960px;
-    margin: auto;
-    border: #dddddd solid 2px;
-}
+    }
+
+    #copypoop {
+        text-align: center;
+        color: white;
+    }
