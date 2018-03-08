@@ -44,6 +44,7 @@
         padding: 10px;
     }
 
+
     .header-right a { 
         float: right;
         margin-top: 20px;
@@ -76,13 +77,14 @@
     padding: 10px;}
 
 
-    p,a {
+    p,.headacross a {
         font-family: Arial, 'Helvetica Nue', Helvetica, sans-serif;
-        color: #777777;
+        
         line-height: 2;
     }
-
-   
+p,a {
+    color: #777777;
+}
     
   
  a:hover{
@@ -125,9 +127,9 @@ a:link {
 }
 
 .gallery {
-    border: solid red 2px;
+
    display: inline-block;
-   margin: 60px;
+   margin: 30px 60px 30px 60px;
 }
 
 .galleryimg {
@@ -138,7 +140,7 @@ a:link {
     background-color: #4aaaa5;
     color: white;
     position: relative;
-    bottom: 20px;
+    bottom: 50px;
     text-align: center;
     padding: 10px;
     width: 200px;
