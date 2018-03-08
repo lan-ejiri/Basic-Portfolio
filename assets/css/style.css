@@ -3,15 +3,22 @@
         margin:  0;
         padding: 0;
         box-sizing: border-box;
+       
     }
 
     body {
-        background-color: lightgray;
+        background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/pink_rice.png");
+    font-family: 'Arial', 'Helvetica Nue', sans-serif; 
+}
+
+    h1 {font-size: 24px;
+        font-family: 'Georgia', 'Times New Roman', Times, serif;
     }
 
     .headacross {
-    background-color: white;
-    border: #dddddd solid 0px 0px 2px 0px;
+    background-color: #ffffff;
+    border: #cccccc solid ;
+    border-width: 0px 0px 2px 0px;
     width: 100%;
     overflow: auto;
     margin-top: auto;
@@ -23,7 +30,7 @@
 
 
     .headertosize {
-        background-color: white;
+        background-color:#ffffff;
         overflow: hidden;
         width: 960px; 
         margin: auto;   
@@ -39,7 +46,7 @@
 
     .header-right a { 
         float: right;
-        margin-top: 25px;
+        margin-top: 20px;
         padding: 0 15px 0 15px;
     }
 
@@ -52,18 +59,19 @@
         float: left;
     }
 
-    .content {
+    .container {
         clear: both;
         background-color: white;
         width: 960px;
         margin: auto;
-        border: #dddddd solid 2px;
+        border: #dddddd solid 5px;
         padding: 20px;
+        margin-bottom: 30px;
     }
 
     .content h1 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #4aaaa5;
     background: white;
     padding: 10px;}
 
@@ -84,30 +92,83 @@ a:link {
     text-decoration: none;
 }
 
-    img {
+    .pic {
         float: left;    
         margin: 10px 20px 0px 0;
     }
 
     .footer{
-        position: absolute;
-        bottom: 0;
         width: 100%;
-        height: 40px;
+        height: 50px;
         background-color: #666666;
+        border-color: #4aaaa5;
+        border-width: 10px 0 0 0px;
+        border-style: solid;
 
     } 
 
-    .tealline {
-        background-color: #4aaaa5;
-        width: 100%;
-        position: absolute;
-        height: 5px;
-        bottom: 40px;
-
-    }
 
     #copypoop {
         text-align: center;
         color: white;
     }
+
+
+
+.formelements {
+    font-family: Arial, 'Helvetica Nue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+}
+
+#formsubmit{
+    background-color: #4aaaa5;
+    color: white;
+    padding:5px 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.gallery {
+    border: solid red 1px;
+   float: left;
+   width: 200px;
+}
+
+
+.gallerylabel{
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+
+.columnz {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+
+
+
+
+
+
+/* footer stuff stolen completely off internet*/
+
+    html, body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+     .content {
+        flex: 1 0 auto; 
+      }
+      .footer {
+        flex-shrink: 0;
+      }
